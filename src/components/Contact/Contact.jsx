@@ -4,7 +4,7 @@ export default function Contact() {
    return(
      <>
      <div className="text-white w-screen flex flex-col items-center justify-center p-5">
-  <div className="w-full sm:w-[80%] md:w-[60%] p-5">
+  <div className="w-full sm:w-[80%] md:w-[60%] p-3">
     <h1 className="text-2xl font-bold text-center mt-5">
       <span className="glow-text">Contact</span> Me
     </h1>

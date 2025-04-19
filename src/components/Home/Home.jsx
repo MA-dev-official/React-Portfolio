@@ -3,8 +3,8 @@ import profile from '../../assets/profile.jpeg'
 export default function Home() {
    return(
      <>
-     <div className="text-white  w-screen flex flex-col sm:flex-row-reverse sm:container  mx-auto items-center justify-center   p-5 ">
-     <div className="size-[250px] overflow-hidden profileBorder rounded-full pb-8  m-2 relative z-10 ">
+     <div className="text-white  w-screen flex flex-col lg:flex-row-reverse sm:container  mx-auto items-center justify-center   p-5 sm:pt-20 ">
+     <div className="size-[250px] md:size-[350px] overflow-hidden profileBorder rounded-full pb-8  m-2 relative z-10 ">
      <img src={profile} alt="profile" className="rounded-full w-full  h-full object-cover " />
      </div>
      <div className="w-full sm:w-[60%]   p-5 flex flex-col   overflow-hidden">

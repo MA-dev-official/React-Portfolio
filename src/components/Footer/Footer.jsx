@@ -6,7 +6,7 @@ import  {NavLink } from 'react-router-dom';
 function Footer() {
   return (
     <footer className="fixed bottom-0  w-full bg-black text-white p-4 mt-auto">
-      <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center gap-2 blueBorder rounded-lg ">
+      <div className="max-w-screen-xl mx-auto flex flex-col  justify-between items-center gap-2 blueBorder rounded-lg pb-3 ">
         <div className="text-center sm:text-left">
         <div className="flex gap-1 w-full items-center justify-center"> <h2 className="text-lg font-bold glow-text">M </h2><h2 className="text-lg font-bold text-white">A</h2> 
         </div>
