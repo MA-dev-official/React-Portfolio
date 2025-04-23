@@ -1,0 +1,49 @@
+@import "tailwindcss";
+body{
+  background-color: black;
+}
+.glow-text {
+  text-shadow: 0 0 5px #22d3ee, 0 0 2px #22d3ee, 0 0 90px #22d3ee;
+  color: #22d3ee;
+}
+.blue-border{
+  border-bottom: 1px solid #22d3ee;
+  box-shadow: 0 1px 8px #22d3ee;
+}
+.blueBorder {
+  border: 1px solid #22d3ee;
+  box-shadow: 0 0 8px #22d3ee; /* Only top glow */
+}
+.profileBorder{
+  border: 5px solid #22d3ee;
+  box-shadow: 0 0 40px #22d3ee;
+}
+.shadow{
+  box-shadow: 0 0 10px #22d3ee
+}
+.Typing{
+  position: absolute;
+  right: -144px; 
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  display: inline-block;
+  border-left: 8px solid white;
+  animation: typing 3s steps(13) 1, blink 0.5s infinite;
+}
+@keyframes typing {
+  from {
+    right: -0px;
+  }
+  to {
+    right: -155px;
+  }
+}
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
