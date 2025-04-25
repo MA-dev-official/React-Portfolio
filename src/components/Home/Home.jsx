@@ -8,7 +8,7 @@ export default function Home() {
      <img src={profile} alt="profile" className="rounded-full w-full  h-full object-cover " />
      </div>
      <div className="w-full sm:w-[60%]   p-5 flex flex-col   overflow-hidden">
-     <h1 className="text-2xl font-bold mt-10">Hi, I'm <span className="glow-text m-2">Muhammad</span>Ahmad</h1>
+     <h1 className="text-2xl font-bold mt-6">Hi, I'm <span className="glow-text m-2">Muhammad</span>Ahmad</h1>
   <div className="flex relative size-fit ">
   <h2 className="text-xl font-bold">I'm a full stack<span className="glow-text m-2">Web Developer</span></h2><span className="Typing"></span>
   </div>
